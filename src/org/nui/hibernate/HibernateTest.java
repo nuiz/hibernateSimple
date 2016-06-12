@@ -32,7 +32,7 @@ public class HibernateTest {
 		
 		Address addr = new Address();
 		addr.setCity("bkk");
-		addr.setDescription("test address description");
+//		addr.setDescription("test address description");
 		user.setAddress(addr);
 
 		Session session = HibernateTest.openSession();

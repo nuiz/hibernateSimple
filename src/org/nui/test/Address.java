@@ -8,14 +8,7 @@ public class Address {
 	private String city;
 	private String state;
 	private String pincode;
-	private String description;
-	
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
+
 	public String getStreet() {
 		return street;
 	}

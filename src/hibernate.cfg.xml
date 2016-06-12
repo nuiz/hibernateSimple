@@ -12,7 +12,7 @@
    <property name="hibernate.connection.username">testhibernate</property>
    <property name="hibernate.connection.password">111111</property>
    <property name="show_sql">true</property>
-   <property name="hbm2ddl.auto">create</property>
+   <property name="hbm2ddl.auto">update</property>
    
    <mapping class="org.nui.test.UserDetails"/>
 
